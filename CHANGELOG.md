@@ -8,31 +8,29 @@ O formato deste changelog é baseado em [Keep a Changelog](https://keepachangelo
 
 ## [0.1.0] - 2025-06-11
 
-### 🚀 Adicionado
-- Estrutura inicial do projeto **rocket-cart-api** utilizando:
+### 🚀 Added
+- Initial project structure **rocket-cart-api** utilizando:
     - Java 17
     - Spring Boot
     - Maven
     - PostgreSQL
-- Endpoints iniciais:
+- First Endpoints :
     - `/parts` para listagem de peças.
     - `/cart` para gerenciar itens do carrinho.
     - `/parts/category/{categoryName}` para listar peças por categoria.
 
 ### 🔧 Infraestrutura
-- Criação da pasta `docker/` na raiz do projeto.
-- Adicionado `docker-compose.yml` para provisionar o banco de dados PostgreSQL com persistência de dados via volume.
+- Creation of the folders `docker/` on project root.
+- Added `docker-compose.yml` to provision the PostgreSQL data source
 
 ---
 
 ## [Unreleased]
 
 ### 🔥 Planejado
-- Criação do endpoint `/cart/checkout` (opcional).
-- Implementação de testes unitários e integração.
+- Creation of endpointt `/cart/checkout` (opcional).
+- unit testing and integration testing.
 - Criação do `Dockerfile` para containerizar a aplicação Spring Boot.
-- Integração com ferramentas de observabilidade (Actuator, Prometheus, Grafana).
-- Pipeline de CI/CD no GitHub Actions.
 
 ---
 
